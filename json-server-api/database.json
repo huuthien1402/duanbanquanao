@@ -1,0 +1,283 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "MASP": "AHP002",
+      "image": "https://ananas.vn/wp-content/uploads/Pro_AHP001_1-1.jpg",
+      "name": "HIP PACK - ANANAS GLOBAL GOAL - CLIMBING",
+      "price": 275000,
+      "quantity": 110,
+      "daban": 40,
+      "view": 250,
+      "trangthai": "Còn Hàng",
+      "sale": 550000
+    },
+    {
+      "id": 2,
+      "MASP": "AGT0001",
+      "image": "https://ananas.vn/wp-content/uploads/Thumbnail-6.jpg",
+      "name": "GRAPHIC TEE - LOGOS PACKED - ORANGE",
+      "price": 350000,
+      "quantity": 100,
+      "daban": 30,
+      "view": 200,
+      "trangthai": "Còn Hàng",
+      "sale": 500000
+    },
+    {
+      "id": 3,
+      "MASP": "AHCS001",
+      "image": "https://ananas.vn/wp-content/uploads/Pro_AHCS011_1.jpg",
+      "name": "ANANAS DAILY THINGS - CANDY PINK",
+      "price": 95000,
+      "quantity": 80,
+      "daban": 10,
+      "view": 100,
+      "trangthai": "Còn Hàng",
+      "sale": 200000
+    },
+    {
+      "id": 4,
+      "MASP": "AV001",
+      "image": "https://ananas.vn/wp-content/uploads/Pro_AV00181_1.jpeg",
+      "name": "PATTAS TOMO - MULE - PRIMROSE YELLOW",
+      "price": 720000,
+      "quantity": 60,
+      "daban": 15,
+      "view": 90,
+      "trangthai": "Còn Hàng",
+      "sale": 999000
+    },
+    {
+      "id": 5,
+      "MASP": "AHCS002",
+      "image": "https://ananas.vn/wp-content/uploads/Pro_AHCS002_1.jpg",
+      "name": "HIGH CREW SOCKS - ANANAS PUPPET CLUB",
+      "price": 119000,
+      "quantity": 70,
+      "daban": 65,
+      "view": 80,
+      "trangthai": "Còn Hàng",
+      "sale": 0
+    },
+    {
+      "id": 6,
+      "MASP": "AGT0002",
+      "image": "https://ananas.vn/wp-content/uploads/Pro_AGT0021_1-1.jpg",
+      "image2": "https://ananas.vn/wp-content/uploads/Pro_AGT0022_0_3.jpg",
+      "image3": "https://ananas.vn/wp-content/uploads/Hover-1.jpg",
+      "image4": "https://ananas.vn/wp-content/uploads/Thumbnail-1.jpg",
+      "name": "GRAPHIC TEE - SKATE 4P - SNOW WHITE",
+      "price": 350000,
+      "quantity": 60,
+      "daban": 60,
+      "view": 110,
+      "trangthai": "Còn Hàng",
+      "sale": 0
+    },
+    {
+      "id": 7,
+      "MASP": "ASTB001",
+      "image": "https://ananas.vn/wp-content/uploads/Pro_ATB002_3.jpeg",
+      "name": "TOTE BAG - GO SKATE - OYSTER GRAY",
+      "price": 220000,
+      "quantity": 70,
+      "daban": 55,
+      "view": 60,
+      "trangthai": "Còn Hàng",
+      "sale": 0
+    },
+    {
+      "id": 8,
+      "MASP": "AV003",
+      "image": "https://ananas.vn/wp-content/uploads/Pro_A6T015_1.jpeg",
+      "name": "TRACK 7 2.BLUES - LOW TOP - BLUEWASH",
+      "price": 1290000,
+      "quantity": 90,
+      "daban": 70,
+      "view": 80,
+      "trangthai": "Còn Hàng",
+      "sale": 0
+    },
+    {
+      "id": 9,
+      "MASP": "AV004",
+      "image": "https://ananas.vn/wp-content/uploads/Pro_ALP2023_4.jpg",
+      "name": "URBAS LOVE+ 23 - SLIP ON - OFFWHITE",
+      "price": 600000,
+      "quantity": 90,
+      "daban": 20,
+      "view": 80,
+      "trangthai": "Còn Hàng",
+      "sale": 0
+    },
+    {
+      "id": 10,
+      "MASP": "AV002",
+      "image": "https://ananas.vn/wp-content/uploads/Pro_A6T014_2.jpeg",
+      "name": "TRACK 6 2.BLUES - LOW TOP - NAVY BLUE",
+      "price": 1119000,
+      "quantity": 120,
+      "daban": 35,
+      "view": 80,
+      "trangthai": "Còn Hàng",
+      "sale": 0
+    },
+    {
+      "id": 11,
+      "MASP": "AHCS003",
+      "image": "https://ananas.vn/wp-content/uploads/Pro_AHCS006_1.jpg",
+      "name": "HIGH CREW SOCKS - ANANAS DAILY - BLACK BEAUTY",
+      "price": 99000,
+      "quantity": 100,
+      "daban": 40,
+      "view": 80,
+      "trangthai": "Còn Hàng",
+      "sale": 0
+    },
+    {
+      "name": "HIGH CREW SOCKS - ANANAS DAILY THINGS - PURPLE PASSION",
+      "image": "https://ananas.vn/wp-content/uploads/Pro_AHCS009_1.jpg",
+      "MASP": "AHCS004",
+      "price": 90000,
+      "sale": 0,
+      "quantity": 70,
+      "trangthai": "Còn Hàng",
+      "daban": 0,
+      "view": 0,
+      "id": 12
+    },
+    {
+      "image": "https://ananas.vn/wp-content/uploads/Pro_AGT0024_1.jpg",
+      "MASP": "AGT0003",
+      "name": "GRAPHIC TEE - THE GUITAR SINGS - JET BLACK",
+      "price": 350000,
+      "sale": 0,
+      "quantity": 50,
+      "trangthai": "Còn Hàng",
+      "daban": 0,
+      "view": 0,
+      "id": 13
+    },
+    {
+      "image": "https://ananas.vn/wp-content/uploads/Pro_AV00174_2.jpeg",
+      "name": "VINTAS JAZICO - HIGH TOP - ROYAL WHITE",
+      "MASP": "AV005",
+      "price": 780000,
+      "sale": 0,
+      "quantity": 80,
+      "trangthai": "Còn Hàng",
+      "daban": 0,
+      "view": 0,
+      "id": 14
+    },
+    {
+      "image": "https://ananas.vn/wp-content/uploads/Pro_AHP003_1.jpg",
+      "name": "HIP PACK - ANANAS GLOBAL GOAL - BLUE BERRY",
+      "MASP": "AHP001",
+      "price": 275000,
+      "sale": 0,
+      "quantity": 90,
+      "trangthai": "Còn Hàng",
+      "daban": 0,
+      "view": 0,
+      "id": 15
+    },
+    {
+      "image": "https://ananas.vn/wp-content/uploads/Pro_AHP002_1.jpg",
+      "MASP": "AHP003",
+      "name": "HIP PACK - ANANAS GLOBAL GOAL - PURPLE SAGE",
+      "price": 280000,
+      "sale": 0,
+      "quantity": 50,
+      "trangthai": "Còn Hàng",
+      "daban": 0,
+      "view": 0,
+      "id": 16
+    },
+    {
+      "image": "https://ananas.vn/wp-content/uploads/Pro_ASTB002_3.jpg",
+      "name": "ANANAS \"COPY\" STORE BAG 002 - CAVIAR BLACK",
+      "MASP": "ASTB00000",
+      "price": 280000,
+      "sale": 0,
+      "quantity": 0,
+      "trangthai": "Hết Hàng",
+      "daban": 0,
+      "view": 0,
+      "id": 17
+    },
+    {
+      "MASP": "ASTB004",
+      "image": "https://ananas.vn/wp-content/uploads/Pro_ATB001_3.jpeg",
+      "name": "TOTE BAG - GO SKATE - JET BLACK",
+      "price": 550000,
+      "sale": 0,
+      "quantity": 60,
+      "trangthai": "Còn Hàng",
+      "daban": 0,
+      "view": 0,
+      "id": 18
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Ho Huu Thien",
+      "sdt": "0916770619",
+      "email": "huuthien@gmail.com",
+      "mk": "1234",
+      "image": "https://picsum.photos/200/301",
+      "phanquyen": "Phan Quyen Cao Cap"
+    },
+    {
+      "id": 2,
+      "Firstname": "Ho Huu",
+      "Lastname": "Thien",
+      "phone": "0916770619",
+      "email": "huuthien@gmail.com"
+    },
+    {
+      "id": 3,
+      "Firstname": "Ho Huu",
+      "Lastname": "Thien",
+      "phone": "0916770619",
+      "email": "huuthien@gmail.com"
+    },
+    {
+      "id": 4,
+      "Firstname": "Ho Huu",
+      "Lastname": "Thien",
+      "phone": "0916770619",
+      "email": "huuthien@gmail.com"
+    },
+    {
+      "id": 5,
+      "Firstname": "Ho Huu",
+      "Lastname": "Thien",
+      "phone": "0916770619",
+      "email": "huuthien@gmail.com"
+    },
+    {
+      "Firstname": "Tran Thanh",
+      "Lastname": "Son",
+      "phone": "0584251659",
+      "email": "son@gmail.com",
+      "id": 6
+    },
+    {
+      "email": "huuthien14022004@gmail.com",
+      "phone": "77777777777",
+      "Lastname": "Phuoc",
+      "Firstname": "Hồ Hữu",
+      "id": 7
+    },
+    {
+      "email": "huuthien14022004@gmail.com",
+      "phone": "9999999999",
+      "Lastname": "hhhhhhhhhhh",
+      "Firstname": "hhhhhhhhhhhh",
+      "id": 8
+    }
+  ]
+}

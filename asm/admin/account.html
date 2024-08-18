@@ -1,0 +1,112 @@
+
+<div class="col-md p-0" ng-controller="userController">
+  <div class="container">
+    <a href="#!accountADD" class="btn btn-success float-end">Thêm tài khoản</a>
+    <h2 class="my-3">Tài khoản</h2>
+    <table class="table text-center align-middle">
+      <thead>
+        <tr>
+          <th>STT</th>
+          <th>Hình</th>
+          <th class="text-start">Tên</th>
+          <th>SĐT</th>
+          <th>Email</th>
+          <th>Mat khau</th>
+          <th>Quyền</th>
+          <th class="text-end">Hành động</th>
+        </tr>
+      </thead>
+      <tbody ng-repeat="user in users">
+        <td>{{user.id}}</td>
+        <td><img ng-src="{{user.image}}" alt="{{user.name}}" class="rounded-circle" style="width: 32px; height: 32px;">
+        </td>
+        <td class="text-start">{{user.name}}</td>
+        <td>{{user.sdt}}</td>
+        <td>{{user.email}}</td>
+        <td>{{user.mk}}</td>
+        <td>{{user.phanquyen}}</td>
+        <td class="text-end">
+          <button class="btn btn-warning" ng-click="editUser(user.id)" data-bs-toggle="modal" data-bs-target="#myModal">
+            Sửa
+          </button>
+          <button class="btn btn-danger" ng-click="deleteUser(user.id)">Xóa</button>
+        </td>
+      </tbody>
+    </table>
+  
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      Modal Header
+      <div class="modal-header">
+        <h4 class="modal-title">Modal Heading</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <-- Modal body -->
+        <div class="modal-body">
+          <form name="myEditForm" ng-submit="updateUser()">
+            
+            <input type="text" name="edituser.name" placeholder="Nhập tên sản phẩm" ng-model="edituser.name" required>
+            <br>
+            <div style="color:red" ng-if="myEditForm['edituser.name'].$touched && myEditForm['edituser.name'].$invalid">
+              Vui lòng nhập tên sản phẩm
+            </div>
+
+            <input type="number" name="edituser.sdt" placeholder="Nhập giá sdt" ng-model="edituser.sdt" required>
+            <br>
+            <div style="color:red"
+              ng-if="myEditForm['edituser.sdt'].$touched && myEditForm['edituser.sdt'].$invalid">
+
+              <span ng-if="myEditForm['edituser.sdt'].$error.required">Vui lòng nhập sdt</span>
+
+            </div>
+
+            <input type="email" name="edituser.email" placeholder="Nhập email" ng-model="edituser.email" required>
+            <br>
+            <div style="color:red" ng-if="myEditForm['edituser.email'].$touched && myEditForm['edituser.email'].$invalid">
+              Vui lòng nhập email
+            </div>
+
+            <input type="text" name="edituser.email" placeholder="Nhập emai" ng-model="edituser.email" required>
+            <br>
+            <div style="color:red" ng-if="myEditForm['edituser.email'].$touched && myEditForm['edituser.email'].$invalid">
+              Vui lòng nhập email
+            </div>
+
+            <input type="text" name="edituser.mk" placeholder="Nhập tên mk" ng-model="edituser.mk" required>
+            <br>
+            <div style="color:red" ng-if="myEditForm['edituser.mk'].$touched && myEditForm['edituser.mk'].$invalid">
+              Vui lòng nhập mk
+            </div>
+
+            <input type="text" name="edituser.image" placeholder="Nhập link hình ảnh" ng-model="edituser.image"
+              required> <br>
+            <div style="color:red"
+              ng-if="myEditForm['edituser.image'].$touched && myEditForm['edituser.image'].$invalid">
+
+              <span ng-if="myEditForm['edituser.image'].$error.required">Vui lòng nhập link hình ảnh</span>
+
+            </div>
+
+            <input type="text" name="edituser.phanquyen" placeholder="Nhập tên phan quyen" ng-model="edituser.phanquyen" required>
+            <br>
+            <div style="color:red" ng-if="myEditForm['edituser.phanquyen'].$touched && myEditForm['edituser.phanquyen'].$invalid">
+              Vui lòng nhập quyen
+            </div>
+            <button>cập nhật</button>
+          </form>
+        </div>
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+        </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+<!-- </div> -->
+<!-- </div>
+</body>
+</html> -->

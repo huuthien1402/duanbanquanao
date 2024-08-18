@@ -1,0 +1,151 @@
+<!-- <!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+ 
+</head>
+
+<body>
+    <div class="container-fluid" ng-app="myapp"> -->
+        <div class="row" ng-controller="productController">
+            <!-- <div class="col-md-2 p-0 bg-secondary collapse collapse-horizontal show" style="min-height: 100vh;" id="opentMenu">
+                <strong class="text-center d-block p-3 text-while">Trang quản lý</strong>
+                <div class="list-group list-group-item-secondary m-3">
+                    <a href="#" class="list-group-item list-group-item-action  bg-secondary text-while" aria-current="true">
+                      Tổng quan
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action active">Tài khoản</a>
+                    <a href="#" class="list-group-item list-group-item-action">Áo </a>
+                    <a href="#" class="list-group-item list-group-item-action">Quần</a>
+                    <a href="#" class="list-group-item list-group-item-action " aria-disabled="true">Túi sách</a>
+                  </div>
+            </div> -->
+            <div class="col-md p-0">
+                <!-- <nav class="navbar navbar-expand-lg bg-secondary" data-bs-theme="dark">
+                    <div class="container-fluid">
+                    <button class="btn btn-outline-light me-2" type="button" data-bs-toggle="collapse" data-bs-target="#opentMenu" aria-expanded="false" aria-controls="opentMenu">
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                    </button>
+                    <a class="navbar-brand" href="#">DEGRAY</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Xin chào Sơn
+                            </a>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Trang chủ</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Đăng xuất</a></li>
+                            </ul>
+                        </li>
+                        
+                        </ul>
+                    </div>
+                    </div>
+                </nav> --> 
+
+<div class="container" >
+  
+  <h2 class="my-3">Thêm Sản Phẩm</h2>
+  <div >
+    <form name="myForm" ng-submit="addProduct()">
+     
+      <div class="mb-3">
+        <label for="id" class="form-label">ID</label>
+        <input type="number" class="form-control" name="product.id" placeholder="Nhập ID sản phẩm" ng-model="product.id" value="{{nextId}}" readonly>
+      </div>
+      <div class="mb-3">
+        <label for="MaSP" class="form-label">Mã Sản phẩm</label>
+        <input type="text" class="form-control" name="product.MASP" placeholder="Nhập mã sản phẩm" ng-model="product.MASP" required>
+        <div style="color:red" ng-if="myForm['product.MASP'].$touched && myForm['product.MASP'].$invalid">
+          <span ng-if="myForm['product.MASP'].$error.required">Vui lòng nhập mã sản phẩm</span>
+
+        </div>
+      </div>
+      <div class="mb-3">
+        <label for="img" class="form-label">Hình ảnh</label>
+        <input type="text" class="form-control" name="product.image" placeholder="Nhập link hình ảnh" ng-model="product.image" required>
+        <div style="color:red" ng-if="myForm['product.image'].$touched && myForm['product.image'].$invalid">
+          <span ng-if="myForm['product.price'].$error.required">Vui lòng nhập link hình ảnh</span>
+
+        </div>
+      </div>
+      <div class="mb-3">
+        <label for="TenSP" class="form-label">Tên sản phẩm</label>
+        <input type="text" class="form-control" name="product.name" placeholder="Nhập tên sản phẩm" ng-model="product.name" required>
+        <div style="color:red" ng-if="myForm['product.name'].$touched && myForm['product.name'].$invalid">
+          Vui lòng nhập tên sản phẩm
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <label for="GiaSP" class="form-label">Giá</label>
+        <input type="number" class="form-control" name="product.price" placeholder="Nhập giá" ng-model="product.price" required>
+        <div style="color:red" ng-if="myForm['product.price'].$touched && myForm['product.price'].$invalid">
+          <span ng-if="myForm['product.price'].$error.required">Vui lòng nhập giá sản phẩm</span>
+
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <label for="sale" class="form-label">Sale</label>
+        <input type="number" class="form-control" name="product.sale" placeholder="Nhập giá giảm" ng-model="product.sale"  required>
+        <div style="color:red" ng-if="myForm['product.sale'].$touched && myForm['product.sale'].$invalid">
+          <span ng-if="myForm['product.sale'].$error.required">Vui lòng nhập giá giảm</span>
+
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <label for="quantity" class="form-label">Số Lượng</label>
+        <input type="number" class="form-control" name="product.quantity" placeholder="Nhập số lượng sản phẩm" ng-model="product.quantity" ng-change="updateStatus()" required>
+        <div style="color:red" ng-if="myForm['product.quantity'].$touched && myForm['product.quantity'].$invalid">
+            <span ng-if="myForm['product.quantity'].$error.required">Vui lòng nhập số lượng sản phẩm</span>
+        </div>
+    </div>
+    
+
+    <div class="mb-3">
+      <label for="trangthai" class="form-label">Trạng Thái</label>
+      <input type="text" class="form-control" name="product.trangthai" ng-model="product.trangthai" readonly>
+    </div>
+    
+    
+
+  
+  
+  
+
+
+      <button class="btn btn-primary">Xác nhận</button>
+    </form>
+  </div>
+</div>
+</div>
+        </div>
+    <!-- </div>
+</body>
+</html> 
+
+<script src="javascript.js"></script>  

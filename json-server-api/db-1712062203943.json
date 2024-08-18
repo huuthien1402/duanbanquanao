@@ -1,0 +1,42 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Sản phẩm 1",
+      "description": "Sản phẩm 1",
+      "price": 10,
+      "image": "https://picsum.photos/200/300"
+    },
+    {
+      "id": 2,
+      "name": "Sản phâm 2",
+      "description": "Sản phẩm 2",
+      "cost": 20,
+      "image": "https://picsum.photos/200/301"
+    },
+    {
+      "id": 3,
+      "name": "Sản phâm 3",
+      "description": "Sản phẩm 3",
+      "cost": 30,
+      "image": "https://picsum.photos/200/302"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "User001111",
+      "email": "Email001@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "User003333",
+      "email": "User003333@gmail.com"
+    },
+    {
+      "name": "Nguyễn Văn Tèo 2",
+      "email": "hung@gmail.com",
+      "id": 3
+    }
+  ]
+}
